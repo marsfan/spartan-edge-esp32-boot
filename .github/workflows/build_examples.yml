@@ -17,9 +17,9 @@ jobs:
       - name: Compile Examples
         uses: arduino/compile-sketches@v1
         with:
-          fqbn: esp32:esp32:esp32doit-devkit-v1
+          fqbn: "esp32:esp32:esp32doit-devkit-v1"
           platforms: |
-            - name: esp32:esp32
+            - name: "esp32:esp32"
             - source-url: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
             - verbose: true
             - enable-warnings-report: true
